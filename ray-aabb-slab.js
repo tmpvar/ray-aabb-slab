@@ -20,11 +20,13 @@ function raySlab(origin, invdir, aabb, out) {
   tmin = max(tmin, min(t1, t2))
   tmax = min(tmax, max(t1, t2))
 
-  t1 = (l[2] - oz) * iz;
-  t2 = (u[2] - oz) * iz;
+  if (origin.length === 3) {
+    t1 = (l[2] - oz) * iz;
+    t2 = (u[2] - oz) * iz;
 
-  tmin = max(tmin, min(t1, t2))
-  tmax = min(tmax, max(t1, t2))
+    tmin = max(tmin, min(t1, t2))
+    tmax = min(tmax, max(t1, t2))
+  }
 
   if (tmax >= max(0.0, tmin)) {
     out[0] = tmin;

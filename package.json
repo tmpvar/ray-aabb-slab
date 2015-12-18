@@ -3,5 +3,36 @@
     "benchmark": "^1.0.0",
     "gl-vec3": "^1.0.3",
     "tape": "^4.2.2"
-  }
+  },
+  "name": "ray-aabb-slab",
+  "version": "1.0.0",
+  "description": "ray aabb intersection test using the slab method",
+  "main": "ray-aabb-slab.js",
+  "dependencies": {
+    "gl-vec3": "^1.0.3",
+    "tape": "^4.2.2",
+    "benchmark": "^1.0.0"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmpvar/ray-aabb-slab.git"
+  },
+  "keywords": [
+    "ray",
+    "aabb",
+    "intersection",
+    "geometry",
+    "3d",
+    "2d",
+    "box"
+  ],
+  "author": "Elijah Insua <tmpvar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tmpvar/ray-aabb-slab/issues"
+  },
+  "homepage": "https://github.com/tmpvar/ray-aabb-slab#readme"
 }

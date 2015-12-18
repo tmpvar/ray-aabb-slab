@@ -1,6 +1,6 @@
 {
   "name": "ray-aabb-slab",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ray aabb intersection test using the slab method",
   "main": "ray-aabb-slab.js",
   "devDependencies": {

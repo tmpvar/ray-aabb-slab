@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "benchmark": "^1.0.0",
+    "gl-vec3": "^1.0.3",
+    "tape": "^4.2.2"
+  }
+}

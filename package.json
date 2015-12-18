@@ -1,13 +1,13 @@
 {
+  "name": "ray-aabb-slab",
+  "version": "0.0.0",
+  "description": "ray aabb intersection test using the slab method",
+  "main": "ray-aabb-slab.js",
   "devDependencies": {
     "benchmark": "^1.0.0",
     "gl-vec3": "^1.0.3",
     "tape": "^4.2.2"
   },
-  "name": "ray-aabb-slab",
-  "version": "1.0.0",
-  "description": "ray aabb intersection test using the slab method",
-  "main": "ray-aabb-slab.js",
   "dependencies": {
     "gl-vec3": "^1.0.3",
     "tape": "^4.2.2",
